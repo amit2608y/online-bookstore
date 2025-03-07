@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/online-bookstore.git'
+                git branch: 'main', url: 'https://github.com/amit2608y/online-bookstore.git'
             }
         }
 
